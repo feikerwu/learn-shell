@@ -10,5 +10,6 @@
 + -s 循环读取的每次间隔时间
 
 ```bash
-  tail -f -n 10 *.log
+  tail -f xx.log # 实时查看日志
+  tail -n 10 xx.log # 查看尾部10行日志
 ```
